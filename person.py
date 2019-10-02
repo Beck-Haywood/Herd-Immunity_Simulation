@@ -37,3 +37,22 @@ class Person(object):
         # Only called if infection attribute is not None.
         # TODO:  Finish this method. Should return a Boolean
 
+''' These are simple tests to ensure that you are instantiating your Person class correctly. '''
+def test_vacc_person_instantiation():
+    # create some people to test if our init method works as expected
+    person = Person(1, True)
+    assert person._id == 1
+    assert person.is_alive is True
+    assert person.is_vaccinated is True
+    assert person.infection is None
+
+def test_not_vacc_person_instantiation():
+    person = Person(2, False)
+    assert person._id == 2
+    assert person.is_alive is True
+    assert person.is_vaccinated is False
+    # TODO: complete your own assert statements that test
+    # the values at each attribute
+    # assert ...
+
+
