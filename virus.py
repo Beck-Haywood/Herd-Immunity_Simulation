@@ -1,7 +1,7 @@
 class Virus(object):
     '''Properties and attributes of the virus used in Simulation.'''
 
-    def __init__(self, name = 'unnamed', repro_rate = 0.0, mortality_rate = 0.0):
+    def __init__(self, name = 'unnamed', repro_rate = 0.0002, mortality_rate = 0.0002):
         self.name = name
         self.repro_rate = repro_rate
         self.mortality_rate = mortality_rate
@@ -35,6 +35,21 @@ class Virus(object):
         self.name = 'Insomnia'
         self.repro_rate = .02
         self.mortality_rate = .1
+
+    def set_virus_swineFlu(self):
+        self.name = 'Swine Flu'
+        self.repro_rate = 0.0025
+        self.mortality_rate = .014
+
+    def set_virus_whoopingCough(self):
+        self.name = 'Whooping Cough'
+        self.repro_rate = 0.034
+        self.mortality_rate = 1.43
+
+    def set_virus_rabies(self):
+        self.name = 'Rabies'
+        self.repro_rate = 0.014
+        self.mortality_rate = 0.999999
 
 def test_virus_instantiation():
     #TODO: Create your own test that models the virus you are working with
