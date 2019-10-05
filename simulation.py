@@ -77,8 +77,13 @@ class Simulation(object):
             Returns:
                 bool: True for simulation should continue, False if it should end.
         '''
-        # TODO: Complete this helper method.  Returns a Boolean.
-        pass
+        continue_simulation = False
+        for person in self.population:
+            if person.is_alive() == True and person.is_vaccinated == None:
+                continue_simulation = True
+                break
+        # √: Complete this helper method.  Returns a Boolean.
+        return continue_simulation
 
     def run(self):
         ''' This method should run the simulation until all requirements for ending
@@ -95,9 +100,10 @@ class Simulation(object):
         should_continue = None
 
         while should_continue:
-        # TODO: for every iteration of this loop, call self.time_step() to compute another
-        # round of this simulation.
-        print('The simulation has ended after {time_step_counter} turns.'.format(time_step_counter))
+            # TODO: for every iteration of this loop, call self.time_step() to compute another
+            int = None
+            # round of this simulation.
+        print(f'The simulation has ended after {time_step_counter} turns.')
         pass
 
     def time_step(self):
