@@ -120,25 +120,29 @@ class Simulation(object):
         This method should run the simulation until all requirements for ending
         the simulation are met.
         """
-        # TODO: Finish this method.  To simplify the logic here, use the helper
-        # method
-        # _simulation_should_continue() to tell us whether or not we should
-        # continue
+        # √: Finish this method.  To simplify the logic here, use the helper method
+        # _simulation_should_continue() to tell us whether or not we should continue
         # the simulation and run at least 1 more time_step.
 
-        # TODO: Keep track of the number of time steps that have passed.
-        # HINT: You may want to call the logger's log_time_step() method at the
-        # end of each time step.
+        # √: Keep track of the number of time steps that have passed.
+        # HINT: You may want to call the logger's log_time_step() method at the end of each time step.
         # TODO: Set this variable using a helper
+
+        #Initialize this counter to zero
         time_step_counter = 0
-        should_continue = None
+        #By default, we want the simulation to begin. We don't check, and just assume True
+        should_continue = True
 
         while should_continue:
-            # TODO: for every iteration of this loop, call self.time_step() to compute another
-            int = None
+            # √: for every iteration of this loop, call self.time_step() to compute another
             # round of this simulation.
+            time_step_counter +=1
+            #The purpose of the run()Function is to loop, not to do the work inside the loop, the work is in time_step()
+            self.time_step()
+            #Check if the entire population is dead or vaccinated
+            should_continue = self._simulation_should_continue()
+        #This is called when the while loop is finished
         print(f'The simulation has ended after {time_step_counter} turns.')
-        pass
 
     def time_step(self):
         """
