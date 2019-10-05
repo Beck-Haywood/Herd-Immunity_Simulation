@@ -23,13 +23,13 @@ class Logger(object):
         # the 'a' mode to append a new log to the end, since 'w' overwrites the file.
         # NOTE: Make sure to end every line with a '/n' character to ensure that each
         # event logged ends up on a separate line!
-        self.file_name = open("log_data.txt","w+")
-        self.file_name.write(f"Population size: {pop_size} /n " +
-        f"Vaccination percentage: {vacc_percentage} /n " +
-        f"Virus name: {virus_name} /n " +
-        f"Mortality rate: {mortality_rate} /n " +
-        f"Basic reproduction number: {basic_repro_num} /n ")
-        self.file_name.close()
+        file = open(self.file_name, 'w+')
+        file.write(f"Population size: {pop_size}\n " +
+        f"Vaccination percentage: {vacc_percentage}\n " +
+        f"Virus name: {virus_name}\n " +
+        f"Mortality rate: {mortality_rate}\n " +
+        f"Basic reproduction number: {basic_repro_num}\n ")
+        file.close()
 
     def log_interaction(self, person, random_person, random_person_sick=None,
                         random_person_vacc=None, did_infect=None):
@@ -46,6 +46,9 @@ class Logger(object):
         # represent all the possible edge cases. Use the values passed along with each person,
         # along with whether they are sick or vaccinated when they interact to determine
         # exactly what happened in the interaction and create a String, and write to your logfile.
+        file = open(self.file_name, 'a')
+        #if 
+        file.close()
         pass
 
     def log_infection_survival(self, person, did_die_from_infection):
@@ -58,7 +61,12 @@ class Logger(object):
         # TODO: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
-        pass
+        file = open(self.file_name, 'a')
+        if did_die_from_infection == True:
+            file.write(f"{person.ID} died from infection.\n")
+        else: #This might need to be elif not did_die_from_infection instead of else check back later after tests
+            file.write(f"{person.ID} survived infection.\n")
+        file.close()
 
     def log_time_step(self, time_step_number):
         ''' STRETCH CHALLENGE DETAILS:
