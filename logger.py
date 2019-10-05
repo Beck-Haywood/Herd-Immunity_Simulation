@@ -7,9 +7,9 @@ class Logger(object):
     # test them one by one as you write your class.
 
     def __init__(self, file_name):
-        # TODO:  Finish this initialization method. The file_name passed should be the
+        # √:  Finish this initialization method. The file_name passed should be the
         # full file name of the file that the logs will be written to.
-        self.file_name = None
+        self.file_name = file_name
 
     def write_metadata(self, pop_size, vacc_percentage, virus_name, mortality_rate,
                        basic_repro_num):
@@ -17,18 +17,18 @@ class Logger(object):
         The simulation class should use this method immediately to log the specific
         parameters of the simulation as the first line of the file.
         '''
-        # TODO: Finish this method. This line of metadata should be tab-delimited
+        # √: Finish this method. This line of metadata should be tab-delimited
         # it should create the text file that we will store all logs in.
         # TIP: Use 'w' mode when you open the file. For all other methods, use
         # the 'a' mode to append a new log to the end, since 'w' overwrites the file.
         # NOTE: Make sure to end every line with a '/n' character to ensure that each
         # event logged ends up on a separate line!
         file = open(self.file_name, 'w+')
-        file.write(f"Population size: {pop_size}\n " +
-        f"Vaccination percentage: {vacc_percentage}\n " +
-        f"Virus name: {virus_name}\n " +
-        f"Mortality rate: {mortality_rate}\n " +
-        f"Basic reproduction number: {basic_repro_num}\n ")
+        file.write(f"Population size: {pop_size}\n" +
+        f"Vaccination percentage: {vacc_percentage}\n" +
+        f"Virus name: {virus_name}\n" +
+        f"Mortality rate: {mortality_rate}\n" +
+        f"Basic reproduction number: {basic_repro_num}\n")
         file.close()
 
     def log_interaction(self, person, random_person, random_person_sick=None,
@@ -42,12 +42,12 @@ class Logger(object):
         or the other edge cases:
             "{person.ID} didn't infect {random_person.ID} because {'vaccinated' or 'already sick'} \n"
         '''
-        # TODO: Finish this method. Think about how the booleans passed (or not passed)
+        # √ Finish this method. Think about how the booleans passed (or not passed)
         # represent all the possible edge cases. Use the values passed along with each person,
         # along with whether they are sick or vaccinated when they interact to determine
         # exactly what happened in the interaction and create a String, and write to your logfile.
         file = open(self.file_name, 'a')
-        #if 
+        
         file.close()
         pass
 
@@ -58,7 +58,7 @@ class Logger(object):
         The format of the log should be:
             "{person.ID} died from infection\n" or "{person.ID} survived infection.\n"
         '''
-        # TODO: Finish this method. If the person survives, did_die_from_infection
+        # √: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
         file = open(self.file_name, 'a')
@@ -68,7 +68,7 @@ class Logger(object):
             file.write(f"{person.ID} survived infection.\n")
         file.close()
 
-    def log_time_step(self, time_step_number):
+    def log_time_step(self, time_step_number, infected_this_step, died_this_step, current_people_infected, death_count):
         ''' STRETCH CHALLENGE DETAILS:
 
         If you choose to extend this method, the format of the summary statistics logged
@@ -83,7 +83,16 @@ class Logger(object):
         The format of this log should be:
             "Time step {time_step_number} ended, beginning {time_step_number + 1}\n"
         '''
-        # TODO: Finish this method. This method should log when a time step ends, and a
+        # √: Finish this method. This method should log when a time step ends, and a
         # new one begins.
         # NOTE: Here is an opportunity for a stretch challenge!
-        pass
+        #I tried making it neat, I also am assuming these variables will be easily passed in from the simulation code. :)
+        file = open(self.file_name, "a")
+        file.write(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n" +
+        f"Number of people infected during time step {time_step_number}, {infected_this_step}\n" +
+        f"Number of people that died during time step {time_step_number}, {died_this_step}\n" +
+        f"People currently infected: {current_people_infected}\n" +
+        f"World death count: {death_count}\n" +
+        f"Time step {time_step_number} ended, beginning {time_step_number + 1}\n" +
+        f" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
+        file.close()
