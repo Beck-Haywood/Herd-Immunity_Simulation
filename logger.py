@@ -47,9 +47,14 @@ class Logger(object):
         # along with whether they are sick or vaccinated when they interact to determine
         # exactly what happened in the interaction and create a String, and write to your logfile.
         file = open(self.file_name, 'a')
-        
+        if did_infect and not random_person_vacc and not random_person_sick:
+            file.write(f"{random_person._id} was infected by {person._id}\n")
+        elif not did_infect:
+            if random_person_sick:
+                file.write(f"{random_person._id} and {person._id} are both sick, and cannot infect eachother\n")
+            elif random_person_vacc:
+                file.write(f"{random_person._id} through the power of vaccination dodged getting infected by {person._id}\n")
         file.close()
-        pass
 
     def log_infection_survival(self, person, did_die_from_infection):
         ''' The Simulation object uses this method to log the results of every
