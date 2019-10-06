@@ -193,7 +193,7 @@ class Simulation(object):
         assert person.is_alive is True
         assert random_person.is_alive is True
 
-        # TODO: Finish this method.
+        # √: Finish this method.
         #  The possible cases you'll need to cover are listed below:
         # random_person is vaccinated:
         #     nothing happens to random person.
@@ -205,8 +205,23 @@ class Simulation(object):
         #     than repro_rate, random_person's ID should be appended to
         #     Simulation object's newly_infected array, so that their .infected
         #     attribute can be changed to True at the end of the time step.
-        # TODO: Call slogger method during this method.
-        pass
+        # ??? TODO: Call slogger ??? method during this method.
+
+        #assume the worst
+        infected = True 
+        #check if vaccinated, already infected, and just lucky to not catch the virus.
+        if random_person.is_vaccinated() == True:
+            infected = False
+        elif random_person.virus != None:
+            infected = False
+        else:
+            infection_rng = random.random()
+            if infection_rng > self.virus.repro_rate:
+                infected = False
+
+        #storing only the persons _id as this is all that is required in the following function.
+        if (infected):
+            self.newly_infected.append(random_person._id)
 
     def _infect_newly_infected(self):
         """
