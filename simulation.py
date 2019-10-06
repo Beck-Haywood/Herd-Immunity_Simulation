@@ -173,9 +173,23 @@ class Simulation(object):
             3. Otherwise call simulation.interaction(person, random_person) and
                 increment interaction counter by 1.
         """
+        #go through everyone in our population list
+        for infected in self.population:
+            #check if they are infected
+            if infected.virus != None:
+                #start counting interactions
+                interactions = 0
+                #up to 100
+                while interactions <100:
+                    #interact with a random person
+                    rng = random.randint(0,self.pop_size)
+                    #dead people don't count
+                    if self.population[rng].is_alive == True:
+                        interactions +=1
+                        #give the random person a chance to become infected
+                        self.interaction(infected, self.population[rng])
 
-        # TODO: Finish this method.
-        pass
+        # √: Finish this method.
 
     def interaction(self, person, random_person):
         """
@@ -232,10 +246,13 @@ class Simulation(object):
 
         # TODO: Call this method at the end of every time step and infect each
         # Person.
-        # TODO: Once you have iterated through the entire list of
+        # √: Once you have iterated through the entire list of
         # self.newly_infected, remember
         # to reset self.newly_infected back to an empty list.
-        pass
+
+        for _id in self.newly_infected:
+            self.population[_id].virus = self.virus
+        self.newly_infected = []
 
 
 if __name__ == "__main__":
