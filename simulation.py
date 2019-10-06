@@ -50,7 +50,7 @@ class Simulation(object):
         # At the end of each time step, call self._infect_newly_infected()
         # and then reset .newly_infected back to an empty list.
         self.logger = None
-        self.population = []  # List of Person objects
+        self.population = [None] # List of Person objects, initialized to the length of our population size
         self.pop_size = pop_size  # Int
         self.next_person_id = 0  # Int
         self.virus = virus  # Virus object
@@ -63,7 +63,7 @@ class Simulation(object):
             virus_name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
 
-    def _create_population(self, initial_infected):
+    def _create_population(self, initial_infected, ):
         """
         This method will create the initial population.
             Args:
@@ -73,7 +73,7 @@ class Simulation(object):
             Returns:
                 list: A list of Person objects.
         """
-        # TODO: Finish this method!  This method should be called when the
+        # √: Finish this method!  This method should be called when the
         # simulation
         # begins, to create the population that will be used. This method
         # should return
@@ -86,17 +86,32 @@ class Simulation(object):
         # Use the attributes created in the init method to create a population
         # that has
         # the correct intial vaccination percentage and initial infected.
-        vacinated_people = self.vacc_percentage * self.pop_size
-        _id = 0
-        for i in range(self.pop_size):
-            for i in range(vacinated_people):
-                person = Person(_id, True, None)
 
-            
-                #person = Person(_id, infection = None)
-                _id += 1
-            self.population.append(person)
-        return self.population
+        #create new population list and fill with people who may or may not have been vaccinated
+        population = []
+        for index in range(self.pop_size):
+            #By default assume they are not vaccinated
+            vaccinated = False
+            #roll a random number from 0 to our population size
+            vaccinated_rng = random.randint(0,self.pop_size)
+            #if our random number is less then the population size times the vaccinated percentage, then set variable True
+            if (vaccinated_rng <= self.pop_size * self.vacc_percentage):
+                vaccinated = True
+            person = person(index,vaccinated)
+
+            population.append(person)
+
+        #counter of people we have successfully infencted
+        population_infected = 0
+        #infect random people until we satisfy starting requirements
+        while population_infected < initial_infected:
+            random_infected = random.randint(0,self.pop_size)
+            #find a person who has neither virus, or vaccination
+            if (population[random_infected].is_vaccinated() == False and population[random_infected].virus is None):
+                population[random_infected].virus = self.virus
+                population_infected += 1        
+
+        return population #don't use self.population, so as to satisfy this functions requirements.
 
     def _simulation_should_continue(self):
         """
