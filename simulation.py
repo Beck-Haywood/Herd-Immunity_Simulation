@@ -49,7 +49,7 @@ class Simulation(object):
         # attribute.
         # At the end of each time step, call self._infect_newly_infected()
         # and then reset .newly_infected back to an empty list.
-        self.logger = None
+        self.logger = Logger('logs.txt')
         self.population = [None] # List of Person objects, initialized to the length of our population size
         self.pop_size = pop_size  # Int
         self.next_person_id = 0  # Int
@@ -62,7 +62,9 @@ class Simulation(object):
         self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format(
             virus_name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
-
+        #Gengi this is why we had nothing logging, I never added it to sim haha.
+        self.logger.write_metadata(pop_size, vacc_percentage, virus_name, mortality_rate)
+       
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
         """
         This method will create the initial population.
@@ -277,5 +279,7 @@ if __name__ == "__main__":
 
     virus = Virus(virus_name, repro_num, mortality_rate)
     sim = Simulation(pop_size, vacc_percentage, virus, initial_infected)
+
+    virus.set_virus_cooties()
 
     sim.run()
