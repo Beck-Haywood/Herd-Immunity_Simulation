@@ -1,7 +1,7 @@
-from random import randint
-from numpy import random #I imported this because random.seed was giving error, this could be wrong import
-random.seed(42)
+import random 
+#from numpy import random #I imported this because random.seed was giving error, this could be wrong import
 from virus import Virus
+random.seed(42)
 
 
 class Person(object):
@@ -17,7 +17,7 @@ class Person(object):
         '''
         self._id = None  # int
         self.is_alive = True  # boolean
-        self.is_vaccinated = None  # boolean
+        self.is_vaccinated = False  # boolean
         self.infection = None  # Virus object or None
         self.virus = Virus('name', 0, 0)
     def did_survive_infection(self):
@@ -26,7 +26,7 @@ class Person(object):
         If Person survives, they become vaccinated and they have no infection.
         Return a boolean value indicating whether they survived the infection.
         '''
-        mortality_rate_roll = randint(0, 100)
+        mortality_rate_roll = random.randint(0, 100)
         if not self.infection == None:
             if mortality_rate_roll > self.virus.mortality_rate:
                 self.is_alive = False
