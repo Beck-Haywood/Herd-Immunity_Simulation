@@ -63,7 +63,7 @@ class Simulation(object):
             virus.name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
         #Gengi this is why we had nothing logging, I never added it to sim haha.
-        self.logger.write_metadata(pop_size, vacc_percentage, virus_name, mortality_rate)
+        self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
        
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
         """
@@ -91,13 +91,14 @@ class Simulation(object):
 
         #create new population list and fill with people who may or may not have been vaccinated
         population = []
-        for index in range(pop_size):
+        for index in range(pop_size-1):
             #By default assume they are not vaccinated
             vaccinated = False
             #roll a random number from 0 to our population size
-            vaccinated_rng = random.randint(0,pop_size-1)
+            vaccinated_rng = random.random()
             #if our random number is less then the population size times the vaccinated percentage, then set variable True
-            if (vaccinated_rng <= pop_size * vacc_percentage):
+            #print(f' vaccinated rng = :{vaccinated_rng} vacc % = :{vacc_percentage} person vacc? :{(vaccinated_rng<= vacc_percentage)}')
+            if (vacc_percentage > 0 and vaccinated_rng <= vacc_percentage):
                 vaccinated = True
             one_people = Person(index,vaccinated)
             #print(f' making person index:{index} is vaccinated? chance{vaccinated_rng} of {pop_size * vacc_percentage} resulted in :{vaccinated}')
@@ -109,8 +110,9 @@ class Simulation(object):
         #infect random people until we satisfy starting requirements
         #print (f' pop_infected: {population_infected} initial_infected: {initial_infected}')
 
-        while population_infected < initial_infected:
-            random_infected = random.randint(0,pop_size-1)
+        while initial_infected > 0 and population_infected < initial_infected:
+            random_infected = random.randint(0,pop_size-1) if pop_size > 1 else 0
+            #random_infected = random.randint(0,pop_size-1)
             #print (f' Checking person {random_infected} vaccinated? :{population[random_infected].is_vaccinated} infected? {population[random_infected].infection}')
             #find a person who has neither virus, or vaccination
             if (population[random_infected].is_vaccinated == False and population[random_infected].infection is None):
@@ -190,7 +192,7 @@ class Simulation(object):
                 #up to 100
                 while interactions <100:
                     #interact with a random person
-                    rng = random.randint(0,self.pop_size)
+                    rng = random.randint(0,self.pop_size-1)
                     #dead people don't count
                     if self.population[rng].is_alive == True:
                         interactions +=1
