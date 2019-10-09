@@ -1,0 +1,4 @@
+Population size: 1000
+Vaccination percentage: 0.01
+Virus name: Rabies
+Mortality rate: 0.999999

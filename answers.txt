@@ -1,0 +1,9 @@
+1. What were the inputs you gave the simulation? (Population size, percent vaccinated, virus name, mortality rate, reproductive rate)
+    Here is an example of the input to run the simulation: python3 simulation.py Rabies 0.014 0.999999 1000 .01 55
+    The first input is the name of the virus: Rabies
+    The second input rate is the reproductive rate, which is very low 1.4% because Rabies requires the subject come in contact with saliva to contract it.
+    Third input is mortality rate which is very high, if not vaccinated, there is only one person on record that survived it without a vacination
+    Fourth input is the population of the simulation which is 1000
+    Next is the percentage vaccinated which is 1%
+    Finally the last input is initial infected, which if left blank will assume 1
+2.
