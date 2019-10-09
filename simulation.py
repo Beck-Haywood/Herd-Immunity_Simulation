@@ -234,7 +234,7 @@ class Simulation(object):
         #check if vaccinated, already infected, and just lucky to not catch the virus.
         if random_person.is_vaccinated == True:
             infected = False
-        elif random_person.virus != None:
+        elif random_person.infection != None:
             infected = False
         else:
             infection_rng = random.random()
@@ -259,7 +259,7 @@ class Simulation(object):
         # to reset self.newly_infected back to an empty list.
 
         for _id in self.newly_infected:
-            self.population[_id].virus = self.virus
+            self.population[_id].infection = self.virus
         self.newly_infected = []
 
 if __name__ == "__main__":
