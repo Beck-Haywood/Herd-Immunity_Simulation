@@ -38,14 +38,14 @@ class Simulation(object):
         run.
         HINT: Look in the if __name__ == "__main__" function at the bottom.
         """
-        # TODO: Create a Logger object and bind it to self.logger.
+        # √: Create a Logger object and bind it to self.logger.
         # Remember to call the appropriate logger method in the corresponding
         # parts of the simulation.
-        # TODO: Call self._create_population() and pass in the correct
+        # √: Call self._create_population() and pass in the correct
         # parameters.
         # Store the array that this method will return in the self.population
         # attribute.
-        # TODO: Store each newly infected person's ID in newly_infected
+        # √: Store each newly infected person's ID in newly_infected
         # attribute.
         # At the end of each time step, call self._infect_newly_infected()
         # and then reset .newly_infected back to an empty list.
@@ -59,8 +59,8 @@ class Simulation(object):
         self.current_infected = 0  # Int
         self.vacc_percentage = vacc_percentage  # float between 0 and 1
         self.total_dead = 0  # Int
-        self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format(
-            virus_name, pop_size, vacc_percentage, initial_infected)
+        self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format( 
+            virus.name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
 
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
@@ -145,7 +145,7 @@ class Simulation(object):
 
         # √: Keep track of the number of time steps that have passed.
         # HINT: You may want to call the logger's log_time_step() method at the end of each time step.
-        # TODO: Set this variable using a helper
+        # √: Set this variable using a helper
 
         #Initialize this counter to zero
         time_step_counter = 0
@@ -250,7 +250,7 @@ class Simulation(object):
         and update each Person object with the disease.
         """
 
-        # TODO: Call this method at the end of every time step and infect each
+        # √: Call this method at the end of every time step and infect each
         # Person.
         # √: Once you have iterated through the entire list of
         # self.newly_infected, remember
@@ -259,7 +259,6 @@ class Simulation(object):
         for _id in self.newly_infected:
             self.population[_id].virus = self.virus
         self.newly_infected = []
-
 
 if __name__ == "__main__":
     params = sys.argv[1:]
