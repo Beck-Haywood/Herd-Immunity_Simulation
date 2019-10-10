@@ -63,7 +63,7 @@ class Simulation(object):
             virus.name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
         #Gengi this is why we had nothing logging, I never added it to sim haha.
-        self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
+        #self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
         #self.BobRossSaved = 0
        
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
@@ -156,6 +156,16 @@ class Simulation(object):
         # √: Keep track of the number of time steps that have passed.
         # HINT: You may want to call the logger's log_time_step() method at the end of each time step.
         # √: Set this variable using a helper
+
+        #Gengi this is why we had nothing logging, I never added it to sim haha.
+        self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
+
+        #self.logger.log_interaction()
+
+        #self.logger.log_infection_survival()
+
+        #self.logger.log_time_step()
+
 
         #Initialize this counter to zero
         time_step_counter = 0
