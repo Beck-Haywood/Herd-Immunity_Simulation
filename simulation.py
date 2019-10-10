@@ -123,7 +123,9 @@ class Simulation(object):
             #find a person who has neither virus, or vaccination
             if (population[random_infected].is_vaccinated == False and population[random_infected].infection is None):
                 population[random_infected].infection = self.virus
-                population_infected += 1        
+                population_infected += 1
+                self.total_infected += 1  # Int
+                self.current_infected += 1  # Int     
 
         return population #don't use self.population, so as to satisfy this functions requirements.
 
@@ -178,26 +180,9 @@ class Simulation(object):
             time_step_counter +=1
             #The purpose of the run()Function is to loop, not to do the work inside the loop, the work is in time_step()
             self.time_step()
-            for people in self.population:
-                if not people.infection == None:
-                    if not self.logger.log_infection_survival(people):
-                        #These are for time step information
-                        self.current_dead -= 1
-                        self.total_dead += 1
-                        self.current_alive -= 1
-                    else:
-                        self.vaccinated += 1
-            #I forgot about the ability to itantiate a object like this
-            self._infect_newly_infected()
-            
-            self.logger.log_time_step(time_step_counter, self.current_infected, self.total_infected, self.total_dead)
-
-            
             #Check if the entire population is dead or vaccinated
             should_continue = self._simulation_should_continue()
-
         #This is called when the while loop is finished
-        
         print(f'The simulation has ended after {time_step_counter} turns.')
         survived = 0
         perished = 0
@@ -311,6 +296,12 @@ class Simulation(object):
         for person in self.population:
             if (person.is_alive):
                 survived = person.did_survive_infection()
+                if (survived == False):
+                    self.current_dead -= 1
+                    self.total_dead += 1
+                    self.current_alive -= 1
+                else :
+                    self.vaccinated += 1
                 #print (f'infected person #{person._id} survied?:{survived}')
             # TODO: Put a check if False here to be able to count how many died this round
 
