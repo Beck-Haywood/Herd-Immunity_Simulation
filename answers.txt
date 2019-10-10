@@ -7,3 +7,8 @@
     Next is the percentage vaccinated which is 1%
     Finally the last input is initial infected, which if left blank will assume 1
 2.
+
+3. What percentage of the population died from the virus?
+    %5.5  55 people out of 1000
+4. Out of all interactions sick individuals had during the entire simulation, how many total interactions did we see where a vaccination saved a person from potentially becoming infected?
+    62. with only 10% of the population with the virus, and an incredibly low chance of catching it, this seems accurate.
