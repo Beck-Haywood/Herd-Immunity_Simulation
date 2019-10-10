@@ -29,7 +29,8 @@ class Person(object):
         '''
         mortality_rate_roll = random.random()
         if not self.infection == None:
-            if mortality_rate_roll > self.infection.mortality_rate:
+            #print (f' ID {self._id} Virus {self.infection.name} mortality rate {self.infection.mortality_rate} roll = {mortality_rate_roll}')
+            if mortality_rate_roll < self.infection.mortality_rate:
                 self.is_alive = False
             else:
                 self.is_vaccinated = True

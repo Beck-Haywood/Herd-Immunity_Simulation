@@ -64,6 +64,7 @@ class Simulation(object):
         self.newly_infected = []
         #Gengi this is why we had nothing logging, I never added it to sim haha.
         self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
+        self.BobRossSaved = 0
        
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
         """
@@ -132,10 +133,15 @@ class Simulation(object):
 
         continue_simulation = False #Set the default behavior to end the game
         #If one person is alive, and hasn't been vaccinated, then the simulation needs to continue
+        infected = 0
         for person in self.population:
+            if person.infection != None:
+                infected = 0
             if person.is_alive == True and person.is_vaccinated == False:
                 continue_simulation = True
                 break #We've determined the simulation will continue, no need to continue checking
+        if continue_simulation == True and infected == 0:
+            continue_simulation = False
         return continue_simulation
 
     def run(self):
@@ -168,6 +174,16 @@ class Simulation(object):
             should_continue = self._simulation_should_continue()
         #This is called when the while loop is finished
         print(f'The simulation has ended after {time_step_counter} turns.')
+        survived = 0
+        perished = 0
+        for person in self.population:
+            if person.is_alive:
+                survived +=1
+            else:
+                perished +=1
+        print (f'#survived {survived} % {survived/10} ')
+        print (f'#perished {perished} % {perished/10} ')
+        print (f'Bob ross saved : {self.BobRossSaved}')
 
     def time_step(self):
         """
@@ -240,6 +256,7 @@ class Simulation(object):
         infected = True 
         #check if vaccinated, already infected, and just lucky to not catch the virus.
         if random_person.is_vaccinated == True:
+            self.BobRossSaved +=1
             infected = False
         elif random_person.infection != None:
             infected = False
@@ -267,8 +284,9 @@ class Simulation(object):
 
         #currently infected individuals will live or die
         for person in self.population:
-            survived = person.did_survive_infection()
-            #print (f'infected person #{person._id} survied?:{survived}')
+            if (person.is_alive):
+                survived = person.did_survive_infection()
+                #print (f'infected person #{person._id} survied?:{survived}')
             # TODO: Put a check if False here to be able to count how many died this round
 
         #This infects people so they can infect others on the next cycle
@@ -291,8 +309,9 @@ if __name__ == "__main__":
         initial_infected = 1
 
     virus = Virus(virus_name, repro_num, mortality_rate)
+    #print (f'Virus {virus.name} with a reproduction rate of %{virus.repro_rate*100} and mortality rate of %{virus.mortality_rate*100}')
     sim = Simulation(pop_size, vacc_percentage, virus, initial_infected)
 
-    virus.set_virus_cooties()
+    #virus.set_virus_cooties()
 
     sim.run()
