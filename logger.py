@@ -55,7 +55,7 @@ class Logger(object):
                 file.write(f"{random_person._id} through the power of vaccination dodged getting infected by {person._id}\n")
         file.close()
 
-    def log_infection_survival(self, person, did_die_from_infection):
+    def log_infection_survival(self, person):
         ''' The Simulation object uses this method to log the results of every
         call of a Person object's .resolve_infection() method.
 
@@ -65,12 +65,16 @@ class Logger(object):
         # √: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
+        living = person.resolve_infection()
         file = open(self.file_name, 'a')
-        if did_die_from_infection == True:
-            file.write(f"{person.ID} died from infection.\n")
-        else: #This might need to be elif not did_die_from_infection instead of else check back later after tests
-            file.write(f"{person.ID} survived infection.\n")
-        file.close()
+        if living:
+            file.write(f"{person._id} survived the infection and is now vaccinated\n")
+            file.close()
+            return True          
+        else:
+            file.write(f"{person._id} died from the infection\n")
+            file.close()
+            return False
 
     def log_time_step(self, time_step_number, infected_this_step, died_this_step, current_people_infected, death_count):
         ''' STRETCH CHALLENGE DETAILS:

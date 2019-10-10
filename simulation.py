@@ -62,6 +62,11 @@ class Simulation(object):
         self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format( 
             virus.name, pop_size, vacc_percentage, initial_infected)
         self.newly_infected = []
+        self.current_dead = 0
+        self.total_dead = 0
+        self.current_alive = self.pop_size
+        self.vaccinated = int(vacc_percentage*pop_size) 
+
         #Gengi this is why we had nothing logging, I never added it to sim haha.
         #self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
         #self.BobRossSaved = 0
@@ -160,13 +165,6 @@ class Simulation(object):
         #Gengi this is why we had nothing logging, I never added it to sim haha.
         self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
 
-        #self.logger.log_interaction()
-
-        #self.logger.log_infection_survival()
-
-        #self.logger.log_time_step()
-
-
         #Initialize this counter to zero
         time_step_counter = 0
         #By default, we want the simulation to begin. We don't check, and just assume True
@@ -177,12 +175,29 @@ class Simulation(object):
         while should_continue:
             # √: for every iteration of this loop, call self.time_step() to compute another
             # round of this simulation.
-            time_step_counter +=1
             #The purpose of the run()Function is to loop, not to do the work inside the loop, the work is in time_step()
             self.time_step()
+            for people in self.population:
+                if not people.infection == None:
+                    if not self.logger.log_infection_survival(people):
+                        #These are for time step information
+                        self.current_dead -= 1
+                        self.total_dead += 1
+                        self.current_alive -= 1
+                    else:
+                        self.vaccinated += 1
+            #I forgot about the ability to itantiate a object like this
+            self._infect_newly_infected()
+            
+            self.logger.log_time_step(time_step_counter, self.current_infected, self.total_infected, self.current_dead, self.total_dead)
+
+            
             #Check if the entire population is dead or vaccinated
             should_continue = self._simulation_should_continue()
+
+            time_step_counter +=1
         #This is called when the while loop is finished
+        
         print(f'The simulation has ended after {time_step_counter} turns.')
         survived = 0
         perished = 0

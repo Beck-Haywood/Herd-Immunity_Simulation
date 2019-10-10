@@ -38,6 +38,19 @@ class Person(object):
         return self.is_alive
         # Only called if infection attribute is not None.
         # TODO:  Finish this method. Should return a Boolean
+    def resolve_infection(self):
+        # Only called if infection attribute is not None.
+        # TODO:  Finish this method. Should return a Boolean
+        amount_killed = random.uniform(0,1)
+        if amount_killed > self.infection.mortality_rate:
+            self.is_vaccinated = True
+            self.infection = None
+            return True
+        else:
+            self.infection = None
+            self.is_alive = False
+            return False
+    
 
 ''' These are simple tests to ensure that you are instantiating your Person class correctly. '''
 def test_vacc_person_instantiation():
