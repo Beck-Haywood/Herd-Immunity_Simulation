@@ -189,7 +189,7 @@ class Simulation(object):
             #I forgot about the ability to itantiate a object like this
             self._infect_newly_infected()
             
-            self.logger.log_time_step(time_step_counter, self.current_infected, self.total_infected, self.current_dead, self.total_dead)
+            self.logger.log_time_step(time_step_counter, self.current_infected, self.total_infected, self.total_dead)
 
             
             #Check if the entire population is dead or vaccinated

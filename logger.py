@@ -76,7 +76,7 @@ class Logger(object):
             file.close()
             return False
 
-    def log_time_step(self, time_step_number, infected_this_step, died_this_step, current_people_infected, death_count):
+    def log_time_step(self, time_step_number, infected_this_step, died_this_step, death_count):
         ''' STRETCH CHALLENGE DETAILS:
 
         If you choose to extend this method, the format of the summary statistics logged
@@ -99,7 +99,6 @@ class Logger(object):
         file.write(" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n" +
         f"Number of people infected during time step {time_step_number}, {infected_this_step}\n" +
         f"Number of people that died during time step {time_step_number}, {died_this_step}\n" +
-        f"People currently infected: {current_people_infected}\n" +
         f"World death count: {death_count}\n" +
         f"Time step {time_step_number} ended, beginning {time_step_number + 1}\n" +
         f" * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *")
