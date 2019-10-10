@@ -64,7 +64,7 @@ class Simulation(object):
         self.newly_infected = []
         #Gengi this is why we had nothing logging, I never added it to sim haha.
         self.logger.write_metadata(pop_size, vacc_percentage, virus.name, virus.mortality_rate)
-        self.BobRossSaved = 0
+        #self.BobRossSaved = 0
        
     def _create_population(self, initial_infected, pop_size, vacc_percentage):
         """
@@ -183,7 +183,7 @@ class Simulation(object):
                 perished +=1
         print (f'#survived {survived} % {survived/10} ')
         print (f'#perished {perished} % {perished/10} ')
-        print (f'Bob ross saved : {self.BobRossSaved}')
+        #print (f'Bob ross saved : {self.BobRossSaved}')
 
     def time_step(self):
         """
@@ -256,7 +256,7 @@ class Simulation(object):
         infected = True 
         #check if vaccinated, already infected, and just lucky to not catch the virus.
         if random_person.is_vaccinated == True:
-            self.BobRossSaved +=1
+            #self.BobRossSaved +=1
             infected = False
         elif random_person.infection != None:
             infected = False
