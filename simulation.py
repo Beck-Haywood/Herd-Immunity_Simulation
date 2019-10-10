@@ -91,7 +91,7 @@ class Simulation(object):
 
         #create new population list and fill with people who may or may not have been vaccinated
         population = []
-        for index in range(pop_size-1):
+        for index in range(pop_size):
             #By default assume they are not vaccinated
             vaccinated = False
             #roll a random number from 0 to our population size
@@ -101,7 +101,7 @@ class Simulation(object):
             if (vacc_percentage > 0 and vaccinated_rng <= vacc_percentage):
                 vaccinated = True
             one_people = Person(index,vaccinated)
-            #print(f' making person index:{index} is vaccinated? chance{vaccinated_rng} of {pop_size * vacc_percentage} resulted in :{vaccinated}')
+            #print(f' making person index:{index} is vaccinated? chance{vaccinated_rng} of {pop_size * vacc_percentage} resulted in :{vaccinated}')a
 
             population.append(one_people)
 
@@ -133,7 +133,7 @@ class Simulation(object):
         continue_simulation = False #Set the default behavior to end the game
         #If one person is alive, and hasn't been vaccinated, then the simulation needs to continue
         for person in self.population:
-            if person.is_alive == True and person.is_vaccinated == None:
+            if person.is_alive == True and person.is_vaccinated == False:
                 continue_simulation = True
                 break #We've determined the simulation will continue, no need to continue checking
         return continue_simulation
@@ -185,20 +185,24 @@ class Simulation(object):
         """
         #go through everyone in our population list
         for infected in self.population:
+            #print(f'person # {infected._id}')
             #check if they are infected
-            if infected.infection != None:
+            if infected.infection != None and infected.is_alive == True:
+                #print(f'infection found in person# {infected._id}')
                 #start counting interactions
                 interactions = 0
                 #up to 100
                 while interactions <100:
                     #interact with a random person
                     rng = random.randint(0,self.pop_size-1)
+                    #print(f'person # {infected._id} interactions left {100-interactions} rng# {rng}')
                     #dead people don't count
                     if self.population[rng].is_alive == True:
                         interactions +=1
                         #give the random person a chance to become infected
                         self.interaction(infected, self.population[rng])
-
+        #We've determined newly infected, update status of current infected
+        self._infect_newly_infected()
         # √: Finish this method.
 
     def interaction(self, person, random_person):
@@ -232,6 +236,7 @@ class Simulation(object):
         # ??? TODO: Call slogger ??? method during this method.
 
         #assume the worst
+        #Note to TA, that this replaces the 'person.did_survive_invection()' method
         infected = True 
         #check if vaccinated, already infected, and just lucky to not catch the virus.
         if random_person.is_vaccinated == True:
@@ -243,7 +248,7 @@ class Simulation(object):
             if infection_rng > self.virus.repro_rate:
                 infected = False
 
-        #storing only the persons _id as this is all that is required in the following function.
+        #storing only the persons _id to send them off to be later infected.
         if (infected):
             self.newly_infected.append(random_person._id)
 
@@ -260,6 +265,13 @@ class Simulation(object):
         # self.newly_infected, remember
         # to reset self.newly_infected back to an empty list.
 
+        #currently infected individuals will live or die
+        for person in self.population:
+            survived = person.did_survive_infection()
+            #print (f'infected person #{person._id} survied?:{survived}')
+            # TODO: Put a check if False here to be able to count how many died this round
+
+        #This infects people so they can infect others on the next cycle
         for _id in self.newly_infected:
             self.population[_id].infection = self.virus
         self.newly_infected = []

@@ -27,14 +27,14 @@ class Person(object):
         If Person survives, they become vaccinated and they have no infection.
         Return a boolean value indicating whether they survived the infection.
         '''
-        mortality_rate_roll = random.randint(0, 100)
+        mortality_rate_roll = random.random()
         if not self.infection == None:
             if mortality_rate_roll > self.infection.mortality_rate:
                 self.is_alive = False
             else:
                 self.is_vaccinated = True
                 self.infection = None
-        return self.is_vaccinated and self.is_alive and self.infection
+        return self.is_alive
         # Only called if infection attribute is not None.
         # TODO:  Finish this method. Should return a Boolean
 
