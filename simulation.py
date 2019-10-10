@@ -175,6 +175,7 @@ class Simulation(object):
         while should_continue:
             # √: for every iteration of this loop, call self.time_step() to compute another
             # round of this simulation.
+            time_step_counter +=1
             #The purpose of the run()Function is to loop, not to do the work inside the loop, the work is in time_step()
             self.time_step()
             for people in self.population:
@@ -195,7 +196,6 @@ class Simulation(object):
             #Check if the entire population is dead or vaccinated
             should_continue = self._simulation_should_continue()
 
-            time_step_counter +=1
         #This is called when the while loop is finished
         
         print(f'The simulation has ended after {time_step_counter} turns.')

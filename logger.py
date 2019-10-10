@@ -65,7 +65,7 @@ class Logger(object):
         # √: Finish this method. If the person survives, did_die_from_infection
         # should be False.  Otherwise, did_die_from_infection should be True.
         # Append the results of the infection to the logfile
-        living = person.resolve_infection()
+        living = person.did_survive_infection()
         file = open(self.file_name, 'a')
         if living:
             file.write(f"{person._id} survived the infection and is now vaccinated\n")

@@ -1,945 +1,979 @@
-Population size: 10000
+Population size: 1000
 Vaccination percentage: 0.01
 Virus name: Rabies
-Mortality rate: 0.29
+Mortality rate: 0.999999
+0 died from the infection
+1 died from the infection
+2 died from the infection
+3 died from the infection
+4 died from the infection
+5 died from the infection
+6 died from the infection
+7 died from the infection
+8 died from the infection
+9 died from the infection
+10 died from the infection
 11 died from the infection
-52 survived the infection and is now vaccinated
+12 died from the infection
+13 died from the infection
+14 died from the infection
+15 died from the infection
+16 died from the infection
+17 died from the infection
+18 died from the infection
+20 died from the infection
+21 died from the infection
+22 died from the infection
+23 died from the infection
+24 died from the infection
+26 died from the infection
+27 died from the infection
+28 died from the infection
+29 died from the infection
+30 died from the infection
+31 died from the infection
+32 died from the infection
+33 died from the infection
+34 died from the infection
+35 died from the infection
+36 died from the infection
+37 died from the infection
+38 died from the infection
+39 died from the infection
+40 died from the infection
+41 died from the infection
+42 died from the infection
+43 died from the infection
+44 died from the infection
+45 died from the infection
+46 died from the infection
+47 died from the infection
+48 died from the infection
+49 died from the infection
+50 died from the infection
+51 died from the infection
+52 died from the infection
+53 died from the infection
+54 died from the infection
+55 died from the infection
+56 died from the infection
+57 died from the infection
+58 died from the infection
+59 died from the infection
+60 died from the infection
+61 died from the infection
+62 died from the infection
+63 died from the infection
+64 died from the infection
+65 died from the infection
 66 died from the infection
-91 survived the infection and is now vaccinated
-103 survived the infection and is now vaccinated
+67 died from the infection
+68 died from the infection
+69 died from the infection
+70 died from the infection
+71 died from the infection
+72 died from the infection
+73 died from the infection
+74 died from the infection
+75 died from the infection
+76 died from the infection
+77 died from the infection
+78 died from the infection
+79 died from the infection
+80 died from the infection
+81 died from the infection
+82 died from the infection
+83 died from the infection
+84 died from the infection
+85 died from the infection
+86 died from the infection
+87 died from the infection
+88 died from the infection
+89 died from the infection
+90 died from the infection
+91 died from the infection
+92 died from the infection
+93 died from the infection
+94 died from the infection
+95 died from the infection
+96 died from the infection
+97 died from the infection
+98 died from the infection
+99 died from the infection
+100 died from the infection
+101 died from the infection
+102 died from the infection
+103 died from the infection
+104 died from the infection
+105 died from the infection
+106 died from the infection
+107 died from the infection
+108 died from the infection
+109 died from the infection
+110 died from the infection
+111 died from the infection
+112 died from the infection
+113 died from the infection
+114 died from the infection
+115 died from the infection
+116 died from the infection
+117 died from the infection
+118 died from the infection
+119 died from the infection
+120 died from the infection
+121 died from the infection
+122 died from the infection
+123 died from the infection
+125 died from the infection
+126 died from the infection
+127 died from the infection
+128 died from the infection
 129 died from the infection
-130 survived the infection and is now vaccinated
-145 survived the infection and is now vaccinated
+130 died from the infection
+131 died from the infection
+132 died from the infection
+133 died from the infection
+134 died from the infection
+135 died from the infection
+136 died from the infection
+137 died from the infection
+138 died from the infection
+139 died from the infection
+140 died from the infection
+141 died from the infection
+142 died from the infection
+143 died from the infection
+144 died from the infection
+145 died from the infection
+146 died from the infection
+147 died from the infection
+148 died from the infection
+149 died from the infection
+150 died from the infection
 151 died from the infection
-167 survived the infection and is now vaccinated
-171 survived the infection and is now vaccinated
-174 survived the infection and is now vaccinated
+152 died from the infection
+153 died from the infection
+154 died from the infection
+155 died from the infection
+156 died from the infection
+157 died from the infection
+158 died from the infection
+159 died from the infection
+160 died from the infection
+161 died from the infection
+162 died from the infection
+163 died from the infection
+164 died from the infection
+165 died from the infection
+166 died from the infection
+167 died from the infection
+168 died from the infection
+169 died from the infection
+170 died from the infection
+171 died from the infection
+172 died from the infection
+173 died from the infection
+174 died from the infection
+175 died from the infection
+176 died from the infection
+177 died from the infection
 178 died from the infection
-189 survived the infection and is now vaccinated
-199 survived the infection and is now vaccinated
-200 survived the infection and is now vaccinated
-223 survived the infection and is now vaccinated
+179 died from the infection
+180 died from the infection
+181 died from the infection
+182 died from the infection
+183 died from the infection
+184 died from the infection
+185 died from the infection
+186 died from the infection
+188 died from the infection
+189 died from the infection
+190 died from the infection
+191 died from the infection
+192 died from the infection
+193 died from the infection
+194 died from the infection
+195 died from the infection
+196 died from the infection
+197 died from the infection
+198 died from the infection
+199 died from the infection
+200 died from the infection
+201 died from the infection
+202 died from the infection
+203 died from the infection
+204 died from the infection
+205 died from the infection
+206 died from the infection
+207 died from the infection
+208 died from the infection
+209 died from the infection
+210 died from the infection
+211 died from the infection
+212 died from the infection
+213 died from the infection
+215 died from the infection
+216 died from the infection
+217 died from the infection
+218 died from the infection
+219 died from the infection
+220 died from the infection
+221 died from the infection
+222 died from the infection
+223 died from the infection
+224 died from the infection
+225 died from the infection
+226 died from the infection
+227 died from the infection
 228 died from the infection
+229 died from the infection
+230 died from the infection
+231 died from the infection
+232 died from the infection
+233 died from the infection
 234 died from the infection
-248 survived the infection and is now vaccinated
-255 survived the infection and is now vaccinated
-268 survived the infection and is now vaccinated
-273 survived the infection and is now vaccinated
+235 died from the infection
+236 died from the infection
+237 died from the infection
+238 died from the infection
+239 died from the infection
+240 died from the infection
+241 died from the infection
+242 died from the infection
+243 died from the infection
+244 died from the infection
+245 died from the infection
+246 died from the infection
+247 died from the infection
+248 died from the infection
+249 died from the infection
+250 died from the infection
+251 died from the infection
+252 died from the infection
+253 died from the infection
+254 died from the infection
+255 died from the infection
+256 died from the infection
+257 died from the infection
+258 died from the infection
+259 died from the infection
+260 died from the infection
+261 died from the infection
+262 died from the infection
+263 died from the infection
+264 died from the infection
+265 died from the infection
+266 died from the infection
+267 died from the infection
+268 died from the infection
+270 died from the infection
+271 died from the infection
+272 died from the infection
+273 died from the infection
+274 died from the infection
+275 died from the infection
+276 died from the infection
 277 died from the infection
-282 survived the infection and is now vaccinated
+278 died from the infection
+279 died from the infection
+280 died from the infection
+281 died from the infection
+282 died from the infection
+283 died from the infection
+284 died from the infection
+285 died from the infection
+286 died from the infection
+287 died from the infection
+288 died from the infection
+289 died from the infection
+291 died from the infection
+292 died from the infection
+293 died from the infection
+294 died from the infection
+295 died from the infection
+296 died from the infection
+298 died from the infection
+300 died from the infection
+301 died from the infection
+302 died from the infection
+303 died from the infection
+304 died from the infection
+305 died from the infection
+306 died from the infection
+307 died from the infection
+308 died from the infection
+309 died from the infection
+310 died from the infection
+311 died from the infection
+312 died from the infection
+313 died from the infection
 314 died from the infection
-335 survived the infection and is now vaccinated
-339 survived the infection and is now vaccinated
-343 survived the infection and is now vaccinated
-348 survived the infection and is now vaccinated
-356 survived the infection and is now vaccinated
-358 survived the infection and is now vaccinated
-366 survived the infection and is now vaccinated
+315 died from the infection
+316 died from the infection
+317 died from the infection
+318 died from the infection
+319 died from the infection
+320 died from the infection
+321 died from the infection
+322 died from the infection
+323 died from the infection
+324 died from the infection
+326 died from the infection
+327 died from the infection
+328 died from the infection
+329 died from the infection
+330 died from the infection
+331 died from the infection
+332 died from the infection
+333 died from the infection
+334 died from the infection
+335 died from the infection
+336 died from the infection
+337 died from the infection
+338 died from the infection
+339 died from the infection
+340 died from the infection
+341 died from the infection
+342 died from the infection
+343 died from the infection
+344 died from the infection
+345 died from the infection
+346 died from the infection
+347 died from the infection
+348 died from the infection
+349 died from the infection
+350 died from the infection
+351 died from the infection
+352 died from the infection
+353 died from the infection
+354 died from the infection
+355 died from the infection
+356 died from the infection
+357 died from the infection
+358 died from the infection
+359 died from the infection
+360 died from the infection
+361 died from the infection
+362 died from the infection
+363 died from the infection
+364 died from the infection
+365 died from the infection
+366 died from the infection
+367 died from the infection
+369 died from the infection
+370 died from the infection
+371 died from the infection
+372 died from the infection
+373 died from the infection
+374 died from the infection
+375 died from the infection
+376 died from the infection
+377 died from the infection
+378 died from the infection
 379 died from the infection
+380 died from the infection
+381 died from the infection
+382 died from the infection
 383 died from the infection
-384 survived the infection and is now vaccinated
-390 survived the infection and is now vaccinated
-414 survived the infection and is now vaccinated
-420 survived the infection and is now vaccinated
-422 survived the infection and is now vaccinated
-425 survived the infection and is now vaccinated
+384 died from the infection
+385 died from the infection
+386 died from the infection
+387 died from the infection
+388 died from the infection
+389 died from the infection
+390 died from the infection
+391 died from the infection
+392 died from the infection
+393 died from the infection
+395 died from the infection
+396 died from the infection
+397 died from the infection
+398 died from the infection
+399 died from the infection
+400 died from the infection
+401 died from the infection
+402 died from the infection
+403 died from the infection
+404 died from the infection
+405 died from the infection
+406 died from the infection
+407 died from the infection
+408 died from the infection
+409 died from the infection
+410 died from the infection
+411 died from the infection
+412 died from the infection
+413 died from the infection
+414 died from the infection
+415 died from the infection
+416 died from the infection
+417 died from the infection
+418 died from the infection
+419 died from the infection
+420 died from the infection
+421 died from the infection
+422 died from the infection
+423 died from the infection
+424 died from the infection
+425 died from the infection
+426 died from the infection
+428 died from the infection
+429 died from the infection
+430 died from the infection
+431 died from the infection
+432 died from the infection
+433 died from the infection
+434 died from the infection
+436 died from the infection
+437 died from the infection
+438 died from the infection
+439 died from the infection
+440 died from the infection
+441 died from the infection
+442 died from the infection
+443 died from the infection
+444 died from the infection
+445 died from the infection
+446 died from the infection
 447 died from the infection
 448 died from the infection
-453 survived the infection and is now vaccinated
-467 survived the infection and is now vaccinated
-484 survived the infection and is now vaccinated
-489 survived the infection and is now vaccinated
-491 survived the infection and is now vaccinated
-506 survived the infection and is now vaccinated
+449 died from the infection
+450 died from the infection
+451 died from the infection
+452 died from the infection
+453 died from the infection
+454 died from the infection
+455 died from the infection
+456 died from the infection
+457 died from the infection
+458 died from the infection
+459 died from the infection
+460 died from the infection
+461 died from the infection
+462 died from the infection
+463 died from the infection
+464 died from the infection
+465 died from the infection
+466 died from the infection
+467 died from the infection
+468 died from the infection
+469 died from the infection
+470 died from the infection
+471 died from the infection
+472 died from the infection
+473 died from the infection
+474 died from the infection
+475 died from the infection
+476 died from the infection
+477 died from the infection
+478 died from the infection
+479 died from the infection
+480 died from the infection
+482 died from the infection
+483 died from the infection
+484 died from the infection
+485 died from the infection
+486 died from the infection
+487 died from the infection
+488 died from the infection
+489 died from the infection
+490 died from the infection
+491 died from the infection
+492 died from the infection
+493 died from the infection
+494 died from the infection
+495 died from the infection
+497 died from the infection
+498 died from the infection
+499 died from the infection
+500 died from the infection
+501 died from the infection
+502 died from the infection
+503 died from the infection
+505 died from the infection
+506 died from the infection
+507 died from the infection
 508 died from the infection
 509 died from the infection
-538 survived the infection and is now vaccinated
+510 died from the infection
+511 died from the infection
+512 died from the infection
+513 died from the infection
+514 died from the infection
+515 died from the infection
+516 died from the infection
+517 died from the infection
+518 died from the infection
+519 died from the infection
+520 died from the infection
+521 died from the infection
+522 died from the infection
+523 died from the infection
+524 died from the infection
+525 died from the infection
+526 died from the infection
+527 died from the infection
+528 died from the infection
+529 died from the infection
+530 died from the infection
+531 died from the infection
+532 died from the infection
+533 died from the infection
+535 died from the infection
+536 died from the infection
+537 died from the infection
+538 died from the infection
+539 died from the infection
+540 died from the infection
+541 died from the infection
+542 died from the infection
+543 died from the infection
+544 died from the infection
+545 died from the infection
+546 died from the infection
+547 died from the infection
+548 died from the infection
 549 died from the infection
+550 died from the infection
+551 died from the infection
+552 died from the infection
 553 died from the infection
+554 died from the infection
+555 died from the infection
+556 died from the infection
+557 died from the infection
+558 died from the infection
+559 died from the infection
+560 died from the infection
+561 died from the infection
+562 died from the infection
+563 died from the infection
+564 died from the infection
+565 died from the infection
+566 died from the infection
+567 died from the infection
+568 died from the infection
+569 died from the infection
+570 died from the infection
+571 died from the infection
+572 died from the infection
+573 died from the infection
+574 died from the infection
+575 died from the infection
+576 died from the infection
+577 died from the infection
+578 died from the infection
+579 died from the infection
+580 died from the infection
+581 died from the infection
+582 died from the infection
 583 died from the infection
-584 survived the infection and is now vaccinated
-589 survived the infection and is now vaccinated
+584 died from the infection
+585 died from the infection
+586 died from the infection
+587 died from the infection
+588 died from the infection
+589 died from the infection
+590 died from the infection
+591 died from the infection
+592 died from the infection
+593 died from the infection
+594 died from the infection
+595 died from the infection
+596 died from the infection
+597 died from the infection
 598 died from the infection
-625 survived the infection and is now vaccinated
+599 died from the infection
+600 died from the infection
+601 died from the infection
+602 died from the infection
+603 died from the infection
+605 died from the infection
+606 died from the infection
+607 died from the infection
+608 died from the infection
+609 died from the infection
+610 died from the infection
+611 died from the infection
+612 died from the infection
+613 died from the infection
+614 died from the infection
+616 died from the infection
+617 died from the infection
+618 died from the infection
+619 died from the infection
+620 died from the infection
+621 died from the infection
+622 died from the infection
+623 died from the infection
+624 died from the infection
+625 died from the infection
+626 died from the infection
+627 died from the infection
 628 died from the infection
+629 died from the infection
 630 died from the infection
-635 survived the infection and is now vaccinated
-653 survived the infection and is now vaccinated
-654 survived the infection and is now vaccinated
+631 died from the infection
+632 died from the infection
+633 died from the infection
+634 died from the infection
+636 died from the infection
+637 died from the infection
+638 died from the infection
+639 died from the infection
+640 died from the infection
+641 died from the infection
+642 died from the infection
+643 died from the infection
+644 died from the infection
+645 died from the infection
+646 died from the infection
+647 died from the infection
+648 died from the infection
+649 died from the infection
+650 died from the infection
+651 died from the infection
+652 died from the infection
+653 died from the infection
+654 died from the infection
+655 died from the infection
+656 died from the infection
 657 died from the infection
-665 survived the infection and is now vaccinated
-668 survived the infection and is now vaccinated
+658 died from the infection
+659 died from the infection
+660 died from the infection
+661 died from the infection
+662 died from the infection
+663 died from the infection
+664 died from the infection
+665 died from the infection
+666 died from the infection
+667 died from the infection
+668 died from the infection
+669 died from the infection
+670 died from the infection
 671 died from the infection
-682 survived the infection and is now vaccinated
+672 died from the infection
+673 died from the infection
+674 died from the infection
+675 died from the infection
+676 died from the infection
+677 died from the infection
+678 died from the infection
+679 died from the infection
+680 died from the infection
+681 died from the infection
+682 died from the infection
+683 died from the infection
+685 died from the infection
+686 died from the infection
+687 died from the infection
+688 died from the infection
+689 died from the infection
+690 died from the infection
 691 died from the infection
-692 survived the infection and is now vaccinated
-716 survived the infection and is now vaccinated
-718 survived the infection and is now vaccinated
+692 died from the infection
+693 died from the infection
+694 died from the infection
+695 died from the infection
+696 died from the infection
+697 died from the infection
+698 died from the infection
+699 died from the infection
+700 died from the infection
+701 died from the infection
+702 died from the infection
+703 died from the infection
+704 died from the infection
+705 died from the infection
+706 died from the infection
+707 died from the infection
+708 died from the infection
+709 died from the infection
+710 died from the infection
+711 died from the infection
+712 died from the infection
+713 died from the infection
+714 died from the infection
+715 died from the infection
+716 died from the infection
+717 died from the infection
+718 died from the infection
+719 died from the infection
+720 died from the infection
+721 died from the infection
+722 died from the infection
+723 died from the infection
+724 died from the infection
+725 died from the infection
+726 died from the infection
+727 died from the infection
+728 died from the infection
+729 died from the infection
+730 died from the infection
+731 died from the infection
+733 died from the infection
+734 died from the infection
+735 died from the infection
+736 died from the infection
+737 died from the infection
+738 died from the infection
+739 died from the infection
+740 died from the infection
 741 died from the infection
-747 survived the infection and is now vaccinated
-774 survived the infection and is now vaccinated
+742 died from the infection
+743 died from the infection
+744 died from the infection
+745 died from the infection
+746 died from the infection
+747 died from the infection
+748 died from the infection
+749 died from the infection
+750 died from the infection
+751 died from the infection
+752 died from the infection
+753 died from the infection
+754 died from the infection
+755 died from the infection
+756 died from the infection
+757 died from the infection
+758 died from the infection
+759 died from the infection
+761 died from the infection
+762 died from the infection
+763 died from the infection
+764 died from the infection
+765 died from the infection
+766 died from the infection
+767 died from the infection
+768 died from the infection
+769 died from the infection
+770 died from the infection
+771 died from the infection
+772 died from the infection
+773 died from the infection
+774 died from the infection
+775 died from the infection
+776 died from the infection
+777 died from the infection
+778 died from the infection
+779 died from the infection
+780 died from the infection
+781 died from the infection
+782 died from the infection
 783 died from the infection
-798 survived the infection and is now vaccinated
-800 survived the infection and is now vaccinated
-812 survived the infection and is now vaccinated
-836 survived the infection and is now vaccinated
+784 died from the infection
+785 died from the infection
+786 died from the infection
+787 died from the infection
+788 died from the infection
+789 died from the infection
+790 died from the infection
+791 died from the infection
+792 died from the infection
+793 died from the infection
+794 died from the infection
+795 died from the infection
+796 died from the infection
+797 died from the infection
+798 died from the infection
+799 died from the infection
+800 died from the infection
+801 died from the infection
+802 died from the infection
+803 died from the infection
+804 died from the infection
+805 died from the infection
+806 died from the infection
+807 died from the infection
+808 died from the infection
+809 died from the infection
+810 died from the infection
+811 died from the infection
+812 died from the infection
+813 died from the infection
+814 died from the infection
+815 died from the infection
+816 died from the infection
+817 died from the infection
+818 died from the infection
+820 died from the infection
+821 died from the infection
+822 died from the infection
+823 died from the infection
+824 died from the infection
+825 died from the infection
+826 died from the infection
+827 died from the infection
+828 died from the infection
+829 died from the infection
+830 died from the infection
+831 died from the infection
+832 died from the infection
+833 died from the infection
+834 died from the infection
+835 died from the infection
+836 died from the infection
+837 died from the infection
+838 died from the infection
+839 died from the infection
+840 died from the infection
+841 died from the infection
+842 died from the infection
+843 died from the infection
+844 died from the infection
+845 died from the infection
+846 died from the infection
+847 died from the infection
+848 died from the infection
+849 died from the infection
+850 died from the infection
+851 died from the infection
+853 died from the infection
 854 died from the infection
-855 survived the infection and is now vaccinated
-864 survived the infection and is now vaccinated
-884 survived the infection and is now vaccinated
-892 survived the infection and is now vaccinated
-893 survived the infection and is now vaccinated
-906 survived the infection and is now vaccinated
+855 died from the infection
+856 died from the infection
+857 died from the infection
+858 died from the infection
+859 died from the infection
+861 died from the infection
+862 died from the infection
+863 died from the infection
+864 died from the infection
+865 died from the infection
+866 died from the infection
+867 died from the infection
+868 died from the infection
+869 died from the infection
+870 died from the infection
+871 died from the infection
+872 died from the infection
+873 died from the infection
+874 died from the infection
+875 died from the infection
+876 died from the infection
+877 died from the infection
+878 died from the infection
+879 died from the infection
+880 died from the infection
+881 died from the infection
+883 died from the infection
+884 died from the infection
+886 died from the infection
+887 died from the infection
+888 died from the infection
+889 died from the infection
+890 died from the infection
+891 died from the infection
+892 died from the infection
+893 died from the infection
+894 died from the infection
+895 died from the infection
+896 died from the infection
+897 died from the infection
+898 died from the infection
+899 died from the infection
+900 died from the infection
+901 died from the infection
+903 died from the infection
+904 died from the infection
+905 died from the infection
+906 died from the infection
+907 died from the infection
+908 died from the infection
+909 died from the infection
+910 died from the infection
+911 died from the infection
+912 died from the infection
+913 died from the infection
+914 died from the infection
+915 died from the infection
+916 died from the infection
 917 died from the infection
+918 died from the infection
+919 died from the infection
+920 died from the infection
+922 died from the infection
+923 died from the infection
 924 died from the infection
-949 survived the infection and is now vaccinated
-967 survived the infection and is now vaccinated
-971 survived the infection and is now vaccinated
-979 survived the infection and is now vaccinated
-997 survived the infection and is now vaccinated
-1003 survived the infection and is now vaccinated
-1007 survived the infection and is now vaccinated
-1021 survived the infection and is now vaccinated
-1028 died from the infection
-1031 survived the infection and is now vaccinated
-1049 died from the infection
-1059 survived the infection and is now vaccinated
-1060 survived the infection and is now vaccinated
-1067 died from the infection
-1070 survived the infection and is now vaccinated
-1086 survived the infection and is now vaccinated
-1093 died from the infection
-1096 survived the infection and is now vaccinated
-1098 survived the infection and is now vaccinated
-1102 died from the infection
-1104 survived the infection and is now vaccinated
-1112 died from the infection
-1114 survived the infection and is now vaccinated
-1134 survived the infection and is now vaccinated
-1144 survived the infection and is now vaccinated
-1151 survived the infection and is now vaccinated
-1153 survived the infection and is now vaccinated
-1155 survived the infection and is now vaccinated
-1161 died from the infection
-1180 survived the infection and is now vaccinated
-1196 survived the infection and is now vaccinated
-1211 survived the infection and is now vaccinated
-1212 died from the infection
-1213 survived the infection and is now vaccinated
-1229 died from the infection
-1235 survived the infection and is now vaccinated
-1241 survived the infection and is now vaccinated
-1244 survived the infection and is now vaccinated
-1253 died from the infection
-1255 survived the infection and is now vaccinated
-1258 survived the infection and is now vaccinated
-1290 survived the infection and is now vaccinated
-1301 survived the infection and is now vaccinated
-1303 survived the infection and is now vaccinated
-1310 survived the infection and is now vaccinated
-1316 survived the infection and is now vaccinated
-1329 survived the infection and is now vaccinated
-1336 died from the infection
-1346 survived the infection and is now vaccinated
-1353 survived the infection and is now vaccinated
-1361 died from the infection
-1370 survived the infection and is now vaccinated
-1374 survived the infection and is now vaccinated
-1384 survived the infection and is now vaccinated
-1415 survived the infection and is now vaccinated
-1422 survived the infection and is now vaccinated
-1445 died from the infection
-1456 survived the infection and is now vaccinated
-1461 survived the infection and is now vaccinated
-1465 survived the infection and is now vaccinated
-1473 died from the infection
-1483 survived the infection and is now vaccinated
-1500 died from the infection
-1540 died from the infection
-1564 survived the infection and is now vaccinated
-1566 survived the infection and is now vaccinated
-1569 survived the infection and is now vaccinated
-1579 survived the infection and is now vaccinated
-1581 died from the infection
-1587 survived the infection and is now vaccinated
-1593 died from the infection
-1605 survived the infection and is now vaccinated
-1610 died from the infection
-1616 survived the infection and is now vaccinated
-1639 survived the infection and is now vaccinated
-1640 died from the infection
-1641 survived the infection and is now vaccinated
-1656 survived the infection and is now vaccinated
-1724 survived the infection and is now vaccinated
-1736 survived the infection and is now vaccinated
-1742 survived the infection and is now vaccinated
-1743 died from the infection
-1753 survived the infection and is now vaccinated
-1765 survived the infection and is now vaccinated
-1774 survived the infection and is now vaccinated
-1791 survived the infection and is now vaccinated
-1825 died from the infection
-1844 survived the infection and is now vaccinated
-1859 survived the infection and is now vaccinated
-1860 survived the infection and is now vaccinated
-1862 died from the infection
-1874 survived the infection and is now vaccinated
-1902 survived the infection and is now vaccinated
-1907 survived the infection and is now vaccinated
-1932 survived the infection and is now vaccinated
-1948 survived the infection and is now vaccinated
-1950 died from the infection
-1956 survived the infection and is now vaccinated
-1965 survived the infection and is now vaccinated
-1967 survived the infection and is now vaccinated
-1979 survived the infection and is now vaccinated
-1990 survived the infection and is now vaccinated
-1993 survived the infection and is now vaccinated
-2023 survived the infection and is now vaccinated
-2032 survived the infection and is now vaccinated
-2040 survived the infection and is now vaccinated
-2042 died from the infection
-2068 survived the infection and is now vaccinated
-2086 survived the infection and is now vaccinated
-2099 survived the infection and is now vaccinated
-2106 survived the infection and is now vaccinated
-2156 survived the infection and is now vaccinated
-2157 survived the infection and is now vaccinated
-2160 died from the infection
-2174 survived the infection and is now vaccinated
-2187 survived the infection and is now vaccinated
-2203 survived the infection and is now vaccinated
-2217 survived the infection and is now vaccinated
-2245 died from the infection
-2253 survived the infection and is now vaccinated
-2280 died from the infection
-2298 died from the infection
-2315 survived the infection and is now vaccinated
-2325 survived the infection and is now vaccinated
-2336 died from the infection
-2338 survived the infection and is now vaccinated
-2344 survived the infection and is now vaccinated
-2397 died from the infection
-2400 survived the infection and is now vaccinated
-2416 died from the infection
-2418 died from the infection
-2422 survived the infection and is now vaccinated
-2429 died from the infection
-2447 survived the infection and is now vaccinated
-2455 survived the infection and is now vaccinated
-2458 survived the infection and is now vaccinated
-2459 survived the infection and is now vaccinated
-2485 survived the infection and is now vaccinated
-2487 died from the infection
-2490 died from the infection
-2497 died from the infection
-2509 died from the infection
-2511 died from the infection
-2532 died from the infection
-2551 survived the infection and is now vaccinated
-2576 died from the infection
-2600 survived the infection and is now vaccinated
-2609 died from the infection
-2610 survived the infection and is now vaccinated
-2618 survived the infection and is now vaccinated
-2626 died from the infection
-2631 died from the infection
-2642 survived the infection and is now vaccinated
-2644 survived the infection and is now vaccinated
-2654 survived the infection and is now vaccinated
-2666 survived the infection and is now vaccinated
-2672 survived the infection and is now vaccinated
-2675 survived the infection and is now vaccinated
-2689 died from the infection
-2718 survived the infection and is now vaccinated
-2734 survived the infection and is now vaccinated
-2769 died from the infection
-2773 died from the infection
-2774 survived the infection and is now vaccinated
-2793 survived the infection and is now vaccinated
-2794 survived the infection and is now vaccinated
-2807 died from the infection
-2819 survived the infection and is now vaccinated
-2823 survived the infection and is now vaccinated
-2830 died from the infection
-2841 died from the infection
-2858 died from the infection
-2870 died from the infection
-2892 survived the infection and is now vaccinated
-2901 survived the infection and is now vaccinated
-2910 died from the infection
-2916 survived the infection and is now vaccinated
-2928 survived the infection and is now vaccinated
-2929 survived the infection and is now vaccinated
-2947 survived the infection and is now vaccinated
-2961 survived the infection and is now vaccinated
-2967 survived the infection and is now vaccinated
-2969 survived the infection and is now vaccinated
-2975 survived the infection and is now vaccinated
-2984 survived the infection and is now vaccinated
-2998 survived the infection and is now vaccinated
-3013 survived the infection and is now vaccinated
-3022 survived the infection and is now vaccinated
-3042 survived the infection and is now vaccinated
-3048 survived the infection and is now vaccinated
-3052 survived the infection and is now vaccinated
-3054 survived the infection and is now vaccinated
-3074 survived the infection and is now vaccinated
-3079 survived the infection and is now vaccinated
-3081 survived the infection and is now vaccinated
-3112 survived the infection and is now vaccinated
-3117 died from the infection
-3129 survived the infection and is now vaccinated
-3156 survived the infection and is now vaccinated
-3192 survived the infection and is now vaccinated
-3197 survived the infection and is now vaccinated
-3239 survived the infection and is now vaccinated
-3240 survived the infection and is now vaccinated
-3254 died from the infection
-3273 survived the infection and is now vaccinated
-3289 died from the infection
-3312 survived the infection and is now vaccinated
-3318 survived the infection and is now vaccinated
-3319 survived the infection and is now vaccinated
-3331 survived the infection and is now vaccinated
-3335 survived the infection and is now vaccinated
-3343 survived the infection and is now vaccinated
-3346 survived the infection and is now vaccinated
-3352 died from the infection
-3353 survived the infection and is now vaccinated
-3368 died from the infection
-3382 died from the infection
-3392 survived the infection and is now vaccinated
-3393 survived the infection and is now vaccinated
-3395 died from the infection
-3417 survived the infection and is now vaccinated
-3421 survived the infection and is now vaccinated
-3434 survived the infection and is now vaccinated
-3442 survived the infection and is now vaccinated
-3451 died from the infection
-3452 survived the infection and is now vaccinated
-3498 survived the infection and is now vaccinated
-3508 survived the infection and is now vaccinated
-3509 survived the infection and is now vaccinated
-3519 survived the infection and is now vaccinated
-3538 survived the infection and is now vaccinated
-3546 died from the infection
-3558 survived the infection and is now vaccinated
-3576 survived the infection and is now vaccinated
-3587 survived the infection and is now vaccinated
-3602 survived the infection and is now vaccinated
-3609 died from the infection
-3648 survived the infection and is now vaccinated
-3653 survived the infection and is now vaccinated
-3660 died from the infection
-3669 survived the infection and is now vaccinated
-3677 survived the infection and is now vaccinated
-3683 survived the infection and is now vaccinated
-3690 survived the infection and is now vaccinated
-3694 died from the infection
-3700 survived the infection and is now vaccinated
-3713 died from the infection
-3721 died from the infection
-3728 survived the infection and is now vaccinated
-3730 survived the infection and is now vaccinated
-3731 survived the infection and is now vaccinated
-3732 survived the infection and is now vaccinated
-3757 survived the infection and is now vaccinated
-3769 survived the infection and is now vaccinated
-3797 survived the infection and is now vaccinated
-3805 survived the infection and is now vaccinated
-3818 survived the infection and is now vaccinated
-3828 died from the infection
-3845 survived the infection and is now vaccinated
-3847 died from the infection
-3850 died from the infection
-3852 died from the infection
-3862 survived the infection and is now vaccinated
-3896 survived the infection and is now vaccinated
-3903 died from the infection
-3909 survived the infection and is now vaccinated
-3920 died from the infection
-3943 survived the infection and is now vaccinated
-3972 survived the infection and is now vaccinated
-3983 survived the infection and is now vaccinated
-3998 survived the infection and is now vaccinated
-4009 survived the infection and is now vaccinated
-4015 survived the infection and is now vaccinated
-4032 survived the infection and is now vaccinated
-4034 survived the infection and is now vaccinated
-4042 died from the infection
-4051 survived the infection and is now vaccinated
-4074 survived the infection and is now vaccinated
-4079 survived the infection and is now vaccinated
-4081 survived the infection and is now vaccinated
-4096 survived the infection and is now vaccinated
-4106 survived the infection and is now vaccinated
-4116 died from the infection
-4123 survived the infection and is now vaccinated
-4129 died from the infection
-4134 survived the infection and is now vaccinated
-4140 survived the infection and is now vaccinated
-4145 survived the infection and is now vaccinated
-4153 died from the infection
-4185 died from the infection
-4189 died from the infection
-4193 survived the infection and is now vaccinated
-4208 died from the infection
-4243 survived the infection and is now vaccinated
-4257 died from the infection
-4259 died from the infection
-4268 survived the infection and is now vaccinated
-4272 survived the infection and is now vaccinated
-4300 survived the infection and is now vaccinated
-4304 survived the infection and is now vaccinated
-4306 died from the infection
-4309 survived the infection and is now vaccinated
-4310 died from the infection
-4318 survived the infection and is now vaccinated
-4334 survived the infection and is now vaccinated
-4346 died from the infection
-4358 died from the infection
-4368 survived the infection and is now vaccinated
-4379 survived the infection and is now vaccinated
-4383 survived the infection and is now vaccinated
-4396 died from the infection
-4406 survived the infection and is now vaccinated
-4413 survived the infection and is now vaccinated
-4441 died from the infection
-4466 died from the infection
-4467 survived the infection and is now vaccinated
-4475 survived the infection and is now vaccinated
-4481 died from the infection
-4485 survived the infection and is now vaccinated
-4488 survived the infection and is now vaccinated
-4491 died from the infection
-4492 survived the infection and is now vaccinated
-4493 died from the infection
-4495 survived the infection and is now vaccinated
-4500 survived the infection and is now vaccinated
-4501 survived the infection and is now vaccinated
-4524 died from the infection
-4525 survived the infection and is now vaccinated
-4541 died from the infection
-4546 died from the infection
-4565 survived the infection and is now vaccinated
-4569 died from the infection
-4578 died from the infection
-4610 survived the infection and is now vaccinated
-4614 survived the infection and is now vaccinated
-4618 survived the infection and is now vaccinated
-4629 survived the infection and is now vaccinated
-4656 died from the infection
-4666 survived the infection and is now vaccinated
-4668 survived the infection and is now vaccinated
-4675 survived the infection and is now vaccinated
-4676 survived the infection and is now vaccinated
-4693 survived the infection and is now vaccinated
-4700 survived the infection and is now vaccinated
-4706 survived the infection and is now vaccinated
-4716 died from the infection
-4729 survived the infection and is now vaccinated
-4745 survived the infection and is now vaccinated
-4771 survived the infection and is now vaccinated
-4791 survived the infection and is now vaccinated
-4800 survived the infection and is now vaccinated
-4801 died from the infection
-4833 survived the infection and is now vaccinated
-4844 died from the infection
-4846 survived the infection and is now vaccinated
-4862 died from the infection
-4909 died from the infection
-4912 survived the infection and is now vaccinated
-4915 survived the infection and is now vaccinated
-4918 died from the infection
-4920 survived the infection and is now vaccinated
-4926 survived the infection and is now vaccinated
-4933 survived the infection and is now vaccinated
-4939 died from the infection
-4946 died from the infection
-4947 survived the infection and is now vaccinated
-4963 survived the infection and is now vaccinated
-4970 survived the infection and is now vaccinated
-4971 survived the infection and is now vaccinated
-4974 survived the infection and is now vaccinated
-4991 survived the infection and is now vaccinated
-4992 survived the infection and is now vaccinated
-4999 died from the infection
-5010 died from the infection
-5014 survived the infection and is now vaccinated
-5017 died from the infection
-5019 died from the infection
-5022 died from the infection
-5028 survived the infection and is now vaccinated
-5067 survived the infection and is now vaccinated
-5074 survived the infection and is now vaccinated
-5089 died from the infection
-5105 survived the infection and is now vaccinated
-5130 died from the infection
-5146 survived the infection and is now vaccinated
-5148 died from the infection
-5150 survived the infection and is now vaccinated
-5166 died from the infection
-5185 survived the infection and is now vaccinated
-5189 died from the infection
-5191 survived the infection and is now vaccinated
-5192 survived the infection and is now vaccinated
-5202 died from the infection
-5203 survived the infection and is now vaccinated
-5208 survived the infection and is now vaccinated
-5212 survived the infection and is now vaccinated
-5227 died from the infection
-5247 survived the infection and is now vaccinated
-5254 survived the infection and is now vaccinated
-5270 survived the infection and is now vaccinated
-5281 died from the infection
-5284 survived the infection and is now vaccinated
-5288 survived the infection and is now vaccinated
-5291 survived the infection and is now vaccinated
-5295 survived the infection and is now vaccinated
-5296 died from the infection
-5297 survived the infection and is now vaccinated
-5318 survived the infection and is now vaccinated
-5355 survived the infection and is now vaccinated
-5359 died from the infection
-5361 survived the infection and is now vaccinated
-5365 survived the infection and is now vaccinated
-5381 survived the infection and is now vaccinated
-5389 survived the infection and is now vaccinated
-5401 survived the infection and is now vaccinated
-5423 survived the infection and is now vaccinated
-5431 survived the infection and is now vaccinated
-5432 survived the infection and is now vaccinated
-5436 survived the infection and is now vaccinated
-5471 survived the infection and is now vaccinated
-5486 died from the infection
-5494 survived the infection and is now vaccinated
-5499 survived the infection and is now vaccinated
-5522 survived the infection and is now vaccinated
-5527 survived the infection and is now vaccinated
-5534 survived the infection and is now vaccinated
-5540 died from the infection
-5563 died from the infection
-5567 survived the infection and is now vaccinated
-5580 died from the infection
-5594 died from the infection
-5605 survived the infection and is now vaccinated
-5614 survived the infection and is now vaccinated
-5621 survived the infection and is now vaccinated
-5634 survived the infection and is now vaccinated
-5636 survived the infection and is now vaccinated
-5655 died from the infection
-5657 survived the infection and is now vaccinated
-5681 survived the infection and is now vaccinated
-5695 died from the infection
-5704 died from the infection
-5705 died from the infection
-5713 survived the infection and is now vaccinated
-5729 survived the infection and is now vaccinated
-5736 survived the infection and is now vaccinated
-5781 survived the infection and is now vaccinated
-5782 died from the infection
-5806 survived the infection and is now vaccinated
-5818 survived the infection and is now vaccinated
-5840 survived the infection and is now vaccinated
-5844 died from the infection
-5850 died from the infection
-5859 survived the infection and is now vaccinated
-5865 died from the infection
-5877 survived the infection and is now vaccinated
-5900 survived the infection and is now vaccinated
-5930 died from the infection
-5934 survived the infection and is now vaccinated
-5940 survived the infection and is now vaccinated
-5987 survived the infection and is now vaccinated
-6004 survived the infection and is now vaccinated
-6024 died from the infection
-6042 survived the infection and is now vaccinated
-6053 survived the infection and is now vaccinated
-6061 died from the infection
-6066 survived the infection and is now vaccinated
-6076 survived the infection and is now vaccinated
-6107 survived the infection and is now vaccinated
-6108 survived the infection and is now vaccinated
-6119 died from the infection
-6122 died from the infection
-6131 died from the infection
-6133 survived the infection and is now vaccinated
-6136 survived the infection and is now vaccinated
-6139 died from the infection
-6142 died from the infection
-6145 survived the infection and is now vaccinated
-6155 died from the infection
-6160 survived the infection and is now vaccinated
-6177 died from the infection
-6187 survived the infection and is now vaccinated
-6225 died from the infection
-6226 survived the infection and is now vaccinated
-6228 died from the infection
-6241 survived the infection and is now vaccinated
-6247 died from the infection
-6250 survived the infection and is now vaccinated
-6265 survived the infection and is now vaccinated
-6268 died from the infection
-6274 died from the infection
-6279 died from the infection
-6292 survived the infection and is now vaccinated
-6302 survived the infection and is now vaccinated
-6317 died from the infection
-6325 survived the infection and is now vaccinated
-6336 survived the infection and is now vaccinated
-6364 survived the infection and is now vaccinated
-6374 survived the infection and is now vaccinated
-6388 survived the infection and is now vaccinated
-6401 survived the infection and is now vaccinated
-6416 died from the infection
-6426 died from the infection
-6432 survived the infection and is now vaccinated
-6435 died from the infection
-6440 survived the infection and is now vaccinated
-6443 died from the infection
-6465 survived the infection and is now vaccinated
-6479 survived the infection and is now vaccinated
-6480 survived the infection and is now vaccinated
-6484 died from the infection
-6491 survived the infection and is now vaccinated
-6493 survived the infection and is now vaccinated
-6524 survived the infection and is now vaccinated
-6525 survived the infection and is now vaccinated
-6535 survived the infection and is now vaccinated
-6567 survived the infection and is now vaccinated
-6572 died from the infection
-6577 survived the infection and is now vaccinated
-6581 survived the infection and is now vaccinated
-6585 survived the infection and is now vaccinated
-6590 survived the infection and is now vaccinated
-6605 died from the infection
-6606 survived the infection and is now vaccinated
-6616 died from the infection
-6618 survived the infection and is now vaccinated
-6619 survived the infection and is now vaccinated
-6620 died from the infection
-6623 survived the infection and is now vaccinated
-6648 survived the infection and is now vaccinated
-6653 survived the infection and is now vaccinated
-6658 survived the infection and is now vaccinated
-6681 died from the infection
-6688 survived the infection and is now vaccinated
-6697 died from the infection
-6701 survived the infection and is now vaccinated
-6712 survived the infection and is now vaccinated
-6714 died from the infection
-6716 died from the infection
-6722 died from the infection
-6727 survived the infection and is now vaccinated
-6730 died from the infection
-6742 died from the infection
-6752 died from the infection
-6757 survived the infection and is now vaccinated
-6777 died from the infection
-6805 died from the infection
-6815 survived the infection and is now vaccinated
-6819 died from the infection
-6820 survived the infection and is now vaccinated
-6821 died from the infection
-6833 died from the infection
-6834 survived the infection and is now vaccinated
-6844 survived the infection and is now vaccinated
-6868 survived the infection and is now vaccinated
-6889 died from the infection
-6904 died from the infection
-6909 survived the infection and is now vaccinated
-6919 died from the infection
-6934 survived the infection and is now vaccinated
-6949 survived the infection and is now vaccinated
-6955 survived the infection and is now vaccinated
-6960 survived the infection and is now vaccinated
-6984 survived the infection and is now vaccinated
-6990 survived the infection and is now vaccinated
-7044 died from the infection
-7046 survived the infection and is now vaccinated
-7068 died from the infection
-7069 survived the infection and is now vaccinated
-7073 survived the infection and is now vaccinated
-7075 died from the infection
-7082 survived the infection and is now vaccinated
-7085 survived the infection and is now vaccinated
-7093 died from the infection
-7108 survived the infection and is now vaccinated
-7138 died from the infection
-7158 survived the infection and is now vaccinated
-7175 survived the infection and is now vaccinated
-7177 survived the infection and is now vaccinated
-7180 survived the infection and is now vaccinated
-7184 survived the infection and is now vaccinated
-7185 died from the infection
-7190 died from the infection
-7191 died from the infection
-7203 died from the infection
-7209 survived the infection and is now vaccinated
-7217 survived the infection and is now vaccinated
-7240 survived the infection and is now vaccinated
-7250 survived the infection and is now vaccinated
-7257 survived the infection and is now vaccinated
-7261 survived the infection and is now vaccinated
-7264 died from the infection
-7280 survived the infection and is now vaccinated
-7281 survived the infection and is now vaccinated
-7285 survived the infection and is now vaccinated
-7292 survived the infection and is now vaccinated
-7306 survived the infection and is now vaccinated
-7309 survived the infection and is now vaccinated
-7317 died from the infection
-7320 survived the infection and is now vaccinated
-7324 survived the infection and is now vaccinated
-7325 died from the infection
-7326 died from the infection
-7358 survived the infection and is now vaccinated
-7363 survived the infection and is now vaccinated
-7392 survived the infection and is now vaccinated
-7401 survived the infection and is now vaccinated
-7410 survived the infection and is now vaccinated
-7427 died from the infection
-7430 survived the infection and is now vaccinated
-7432 survived the infection and is now vaccinated
-7435 died from the infection
-7439 survived the infection and is now vaccinated
-7444 survived the infection and is now vaccinated
-7446 survived the infection and is now vaccinated
-7454 survived the infection and is now vaccinated
-7472 survived the infection and is now vaccinated
-7486 survived the infection and is now vaccinated
-7515 died from the infection
-7518 survived the infection and is now vaccinated
-7535 survived the infection and is now vaccinated
-7540 died from the infection
-7546 survived the infection and is now vaccinated
-7555 survived the infection and is now vaccinated
-7563 survived the infection and is now vaccinated
-7585 died from the infection
-7600 survived the infection and is now vaccinated
-7608 survived the infection and is now vaccinated
-7614 survived the infection and is now vaccinated
-7630 died from the infection
-7642 survived the infection and is now vaccinated
-7643 survived the infection and is now vaccinated
-7644 survived the infection and is now vaccinated
-7662 survived the infection and is now vaccinated
-7673 died from the infection
-7688 died from the infection
-7708 survived the infection and is now vaccinated
-7728 died from the infection
-7748 died from the infection
-7756 survived the infection and is now vaccinated
-7758 survived the infection and is now vaccinated
-7763 survived the infection and is now vaccinated
-7773 died from the infection
-7778 survived the infection and is now vaccinated
-7790 died from the infection
-7793 died from the infection
-7799 survived the infection and is now vaccinated
-7804 survived the infection and is now vaccinated
-7807 survived the infection and is now vaccinated
-7813 died from the infection
-7824 survived the infection and is now vaccinated
-7844 died from the infection
-7850 survived the infection and is now vaccinated
-7871 survived the infection and is now vaccinated
-7875 survived the infection and is now vaccinated
-7877 survived the infection and is now vaccinated
-7947 died from the infection
-7953 died from the infection
-7955 survived the infection and is now vaccinated
-7966 survived the infection and is now vaccinated
-7973 died from the infection
-7979 survived the infection and is now vaccinated
-7998 survived the infection and is now vaccinated
-8004 survived the infection and is now vaccinated
-8040 died from the infection
-8041 survived the infection and is now vaccinated
-8046 survived the infection and is now vaccinated
-8053 survived the infection and is now vaccinated
-8055 died from the infection
-8061 survived the infection and is now vaccinated
-8068 survived the infection and is now vaccinated
-8082 survived the infection and is now vaccinated
-8084 died from the infection
-8105 survived the infection and is now vaccinated
-8108 died from the infection
-8109 died from the infection
-8113 died from the infection
-8138 survived the infection and is now vaccinated
-8142 survived the infection and is now vaccinated
-8153 survived the infection and is now vaccinated
-8162 survived the infection and is now vaccinated
-8175 survived the infection and is now vaccinated
-8177 survived the infection and is now vaccinated
-8186 died from the infection
-8191 survived the infection and is now vaccinated
-8209 survived the infection and is now vaccinated
-8216 died from the infection
-8221 died from the infection
-8240 survived the infection and is now vaccinated
-8242 survived the infection and is now vaccinated
-8259 survived the infection and is now vaccinated
-8269 survived the infection and is now vaccinated
-8281 survived the infection and is now vaccinated
-8283 died from the infection
-8305 survived the infection and is now vaccinated
-8306 survived the infection and is now vaccinated
-8313 survived the infection and is now vaccinated
-8320 died from the infection
-8335 survived the infection and is now vaccinated
-8345 survived the infection and is now vaccinated
-8348 survived the infection and is now vaccinated
-8372 survived the infection and is now vaccinated
-8383 died from the infection
-8392 survived the infection and is now vaccinated
-8467 survived the infection and is now vaccinated
-8478 died from the infection
-8501 survived the infection and is now vaccinated
-8512 died from the infection
-8517 died from the infection
-8535 survived the infection and is now vaccinated
-8540 died from the infection
-8552 survived the infection and is now vaccinated
-8567 survived the infection and is now vaccinated
-8569 survived the infection and is now vaccinated
-8584 died from the infection
-8586 survived the infection and is now vaccinated
-8589 died from the infection
-8594 died from the infection
-8604 survived the infection and is now vaccinated
-8605 survived the infection and is now vaccinated
-8627 died from the infection
-8657 survived the infection and is now vaccinated
-8669 survived the infection and is now vaccinated
-8672 survived the infection and is now vaccinated
-8676 survived the infection and is now vaccinated
-8679 survived the infection and is now vaccinated
-8682 died from the infection
-8690 survived the infection and is now vaccinated
-8697 survived the infection and is now vaccinated
-8712 survived the infection and is now vaccinated
-8719 survived the infection and is now vaccinated
-8724 survived the infection and is now vaccinated
-8729 survived the infection and is now vaccinated
-8735 survived the infection and is now vaccinated
-8750 survived the infection and is now vaccinated
-8753 survived the infection and is now vaccinated
-8761 died from the infection
-8771 survived the infection and is now vaccinated
-8793 survived the infection and is now vaccinated
-8797 died from the infection
-8803 died from the infection
-8843 survived the infection and is now vaccinated
-8847 died from the infection
-8848 died from the infection
-8859 died from the infection
-8903 survived the infection and is now vaccinated
-8907 survived the infection and is now vaccinated
-8908 survived the infection and is now vaccinated
-8914 survived the infection and is now vaccinated
-8922 survived the infection and is now vaccinated
-8944 survived the infection and is now vaccinated
-8963 survived the infection and is now vaccinated
-9000 died from the infection
-9003 survived the infection and is now vaccinated
-9050 survived the infection and is now vaccinated
-9058 survived the infection and is now vaccinated
-9059 survived the infection and is now vaccinated
-9065 survived the infection and is now vaccinated
-9084 survived the infection and is now vaccinated
-9093 survived the infection and is now vaccinated
-9119 survived the infection and is now vaccinated
-9136 survived the infection and is now vaccinated
-9137 died from the infection
-9182 survived the infection and is now vaccinated
-9184 died from the infection
-9191 died from the infection
-9202 survived the infection and is now vaccinated
-9226 survived the infection and is now vaccinated
-9227 survived the infection and is now vaccinated
-9229 survived the infection and is now vaccinated
-9236 survived the infection and is now vaccinated
-9257 survived the infection and is now vaccinated
-9267 survived the infection and is now vaccinated
-9268 died from the infection
-9273 survived the infection and is now vaccinated
-9282 survived the infection and is now vaccinated
-9286 died from the infection
-9307 survived the infection and is now vaccinated
-9309 survived the infection and is now vaccinated
-9312 died from the infection
-9314 survived the infection and is now vaccinated
-9327 died from the infection
-9340 survived the infection and is now vaccinated
-9357 survived the infection and is now vaccinated
-9359 survived the infection and is now vaccinated
-9399 survived the infection and is now vaccinated
-9404 died from the infection
-9424 survived the infection and is now vaccinated
-9440 survived the infection and is now vaccinated
-9451 survived the infection and is now vaccinated
-9456 died from the infection
-9461 died from the infection
-9485 survived the infection and is now vaccinated
-9500 survived the infection and is now vaccinated
-9506 survived the infection and is now vaccinated
-9517 survived the infection and is now vaccinated
-9523 died from the infection
-9547 survived the infection and is now vaccinated
-9555 died from the infection
-9566 survived the infection and is now vaccinated
-9570 survived the infection and is now vaccinated
-9572 survived the infection and is now vaccinated
-9583 survived the infection and is now vaccinated
-9588 died from the infection
-9606 survived the infection and is now vaccinated
-9608 died from the infection
-9614 survived the infection and is now vaccinated
-9615 survived the infection and is now vaccinated
-9632 died from the infection
-9635 died from the infection
-9637 survived the infection and is now vaccinated
-9663 survived the infection and is now vaccinated
-9669 survived the infection and is now vaccinated
-9671 died from the infection
-9682 survived the infection and is now vaccinated
-9685 died from the infection
-9686 survived the infection and is now vaccinated
-9704 survived the infection and is now vaccinated
-9714 survived the infection and is now vaccinated
-9721 survived the infection and is now vaccinated
-9729 died from the infection
-9752 survived the infection and is now vaccinated
-9761 survived the infection and is now vaccinated
-9776 survived the infection and is now vaccinated
-9793 died from the infection
-9802 survived the infection and is now vaccinated
-9804 survived the infection and is now vaccinated
-9815 survived the infection and is now vaccinated
-9845 died from the infection
-9848 survived the infection and is now vaccinated
-9852 died from the infection
-9883 survived the infection and is now vaccinated
-9892 survived the infection and is now vaccinated
-9897 died from the infection
-9937 survived the infection and is now vaccinated
-9941 survived the infection and is now vaccinated
-9946 survived the infection and is now vaccinated
-9955 died from the infection
-9958 survived the infection and is now vaccinated
-9961 died from the infection
-9970 survived the infection and is now vaccinated
-9978 survived the infection and is now vaccinated
-9980 survived the infection and is now vaccinated
-9984 survived the infection and is now vaccinated
-9988 died from the infection
-9990 survived the infection and is now vaccinated
+925 died from the infection
+926 died from the infection
+927 died from the infection
+928 died from the infection
+929 died from the infection
+930 died from the infection
+931 died from the infection
+932 died from the infection
+933 died from the infection
+934 died from the infection
+935 died from the infection
+936 died from the infection
+937 died from the infection
+938 died from the infection
+939 died from the infection
+940 died from the infection
+941 died from the infection
+942 died from the infection
+943 died from the infection
+944 died from the infection
+945 died from the infection
+946 died from the infection
+947 died from the infection
+948 died from the infection
+949 died from the infection
+950 died from the infection
+951 died from the infection
+952 died from the infection
+953 died from the infection
+954 died from the infection
+955 died from the infection
+956 died from the infection
+957 died from the infection
+958 died from the infection
+959 died from the infection
+960 died from the infection
+961 died from the infection
+962 died from the infection
+963 died from the infection
+964 died from the infection
+965 died from the infection
+966 died from the infection
+967 died from the infection
+968 died from the infection
+969 died from the infection
+970 died from the infection
+971 died from the infection
+972 died from the infection
+973 died from the infection
+974 died from the infection
+975 died from the infection
+976 died from the infection
+977 died from the infection
+978 died from the infection
+979 died from the infection
+980 died from the infection
+981 died from the infection
+982 died from the infection
+983 died from the infection
+984 died from the infection
+985 died from the infection
+986 died from the infection
+987 died from the infection
+988 died from the infection
+989 died from the infection
+990 died from the infection
+991 died from the infection
+992 died from the infection
+993 died from the infection
+994 died from the infection
+995 died from the infection
+996 died from the infection
+997 died from the infection
+998 died from the infection
+999 died from the infection
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-Number of people infected during time step 0, 0
-Number of people that died during time step 0, 0
-World death count: 290
-Time step 0 ended, beginning 1
+Number of people infected during time step 1, 0
+Number of people that died during time step 1, 0
+World death count: 969
+Time step 1 ended, beginning 2
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
