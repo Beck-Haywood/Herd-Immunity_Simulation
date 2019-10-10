@@ -182,6 +182,7 @@ class Simulation(object):
             self.time_step()
             #Check if the entire population is dead or vaccinated
             should_continue = self._simulation_should_continue()
+            self.logger.log_time_step(time_step_counter, self.current_infected, self.total_infected, self.total_dead)
         #This is called when the while loop is finished
         print(f'The simulation has ended after {time_step_counter} turns.')
         survived = 0
